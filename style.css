@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    height: 100vh;    
+    font-family: "나눔고딕" ,"맑은 고딕", sans-serif;
+  }
+  .app {
+    background: #2ecc71;
+    color: #fff;
+    border: 1px solid #ccc;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  input {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 1em;
+    /* outline: none; */
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-size: 8vw;
+  }
+  
+  .day {
+    font-size: 3em;
+    color: red;
+  }
+  
+  .info {
+    font-weight: bold;
+    font-size: 20px;
+  }
